@@ -5,7 +5,7 @@ int pedRed = 9; // assign the pedestrian lights
 int pedGreen = 8; 
 int button = 2; // button pin 
 int crossTime = 5000; // time alloyoud to cross 
-unsigned long changeTime; // time since button pressed 
+unsigned long changeTime; 
 void setup() { 
  pinMode(carRed, OUTPUT); 
  pinMode(carYellow, OUTPUT); 
