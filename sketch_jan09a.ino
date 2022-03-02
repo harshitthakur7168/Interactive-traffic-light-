@@ -54,7 +54,7 @@ void changeLights() {
  digitalWrite(carGreen, HIGH); 
  digitalWrite(carYellow, LOW); // yellow off 
  
- // record the time since last change of lights 
+
  changeTime = millis(); 
- // then return to the main program loop 
+
 } 
